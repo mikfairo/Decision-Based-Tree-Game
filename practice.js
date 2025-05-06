@@ -1,10 +1,18 @@
 const prompt = require('prompt-sync')();
 
-let userInput = prompt('What is your name?');
-console.log(userInput);
-if (userInput === 'Kim') {
-    console.log('Hi Kim!');
-    userInput = prompt('Is this the Kim from Queens?')
+console.log(' A.Cat\n B.Dog\n C.Bunny\n D.Hamster')
+let userInput = prompt();
+userInput = userInput.toLowerCase();
+
+if (userInput === 'a') {
+    console.log('Meow!');
+} else if (userInput === 'b') {
+    console.log('Woof!');
+} else if (userInput === 'c') {
+    console.log('Squeakk!');
+} else if (userInput === 'd') {
+    console.log('Kekeke!');
 } else {
-    console.log('Who?');
-}
+    console.log('Invalid selection');
+};
+

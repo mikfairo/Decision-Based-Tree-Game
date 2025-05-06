@@ -1,0 +1,1 @@
+console.log(' A.Cat\n B.Dog\n C.Bunny\n D.Hamster\n');
